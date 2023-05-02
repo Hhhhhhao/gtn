@@ -67,6 +67,7 @@ class CMakeBuild(build_ext):
             "-DGTN_BUILD_EXAMPLES=OFF",
             "-DGTN_BUILD_BENCHMARKS=OFF",
             "-DGTN_BUILD_TESTS=OFF",
+            "-DGTN_BUILD_CUDA=OFF",
         ]
 
         cfg = "Debug" if self.debug else "Release"
